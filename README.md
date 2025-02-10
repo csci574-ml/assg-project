@@ -2,8 +2,43 @@
 
 ## Project Description
 
-Please specify the data source you have selected and write a paragraph of what you hope to
-do with the data you choose for the class project here.
+
+Data Set Name: Name of Dataset
+Data Source url: http://domain.com/dataset
+
+Your description and project plans goes here.
+
+
+## Instructions for Getting Started and Choosing a DataSet to Analyze
+
+Please choose a dataset and descirbe in general what are the features of the data you will be working with and you plans for
+analysis and modeling of the data.  I won't hold  you strictly to your plans here, as you thought may change as you explore the
+data.  But you should give me a paragraph or two description of your understanding of the data features and your thoughts
+on what you will do with the data.
+
+You can use a dataset of your own, though check with me directly to make sure it is ok.  If the data source does not have
+an easily accessable url you can point to, you will need to put the data into the `data` subdirectory and/or create scripts
+to download and obtain a copy of the data so that I can see it.  It is a requirement that I am able to look at the data you
+will use for your project, and run your code on it, so you will need to pick something that you can publically share.  I will
+probably only allow one person each semester to claim and work on a particular dataset from a public source, so it will be first-come-first
+serve and if you have a preference or something in mind you might want to finish your description here and commit early to get
+first dibs.  Some public data libraries that you can look at for datasets to use include:
+
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Top Sources for Machine Learning Datasets](https://towardsdatascience.com/top-sources-for-machine-learning-datasets-bb6d0dc3378b) this is an article with some additional
+  data set repositories you can consider.
+  
+You cannot use datasets other students are using this semester.  Also you cannot use common popular datasets, especially ones that we
+have looked at (or will look at) in our class.  So most of the datasets I see on the UCI Popular datasets I will not let you use
+this semester, which include the Iris, Heart Disease, Wine Quality, Adult income and Breast Cancer Wisconsin datasets, which are too well known
+to make good projects.
+
+Please select a dataset by the due date.  Update this Readme with the url source of the dataset.  If you are not using a dataset with a easily accessible url, please put the data into
+the `data` subdirectory, and/or put in scripts to download the datasource into the `data` subdirectory.  Then write a paragraph or more describing the features of the dataset
+and your understanding of what the dataset includes before you have done any detailed exploration.  Describe hat labels
+you think you will be using as a target of your models.  You should plan to perform a supervisied learning task for your project.
+
 
 ## Project Structure
 
