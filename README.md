@@ -3,12 +3,19 @@
 ## Project Description
 
 
-Data Set Name: Name of Dataset
+Data Set Name: Psychological Manipulation Conversations Dataset
 
-Data Source url: http://domain.com/dataset
+Data Source url: [http://domain.com/dataset](https://www.kaggle.com/datasets/tatheerabbas/psychological-manipulation-conversations-dataset)
 
-Your description and project plans goes here.
+This project will classify digital chatlogs into psychological manipulation tactics such as gaslighting, love bombing, and guilt-tripping using classical machine learning. Dialogue text will be preprocessed with Scikit-Learn's TF-IDF Vectorizer, then trained across multiclass models including Logistic Regression and Random Forest. Model performance will be evaluated using F1-scores and confusion matrices.
 
+The Plan
+1. Define the multiclass classification task evaluated via F1-score and confusion matrices.
+2. Inspect chatlog text and metadata distributions in Pandas.
+3. Split data and create a Scikit-Learn pipeline with TF-IDF vectorization.
+4. Compare Logistic Regression, SGD Classifier, and Random Forest models using cross-validation.
+5. Optimize hyperparameters and analyze error heatmaps.
+6. Document baseline F1 performance and capstone next steps.
 
 ## Instructions for Getting Started and Choosing a DataSet to Analyze
 
